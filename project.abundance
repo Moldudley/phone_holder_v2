@@ -1068,13 +1068,39 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.22261277094317514,
-      "y": 0.565989847715736,
+      "x": 0.23140011716461628,
+      "y": 0.4847715736040609,
       "uniqueID": "id-730",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 20
+          "ioValue": 20,
+          "currentEquation": "20"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3327475102519039,
+      "y": 0.5279187817258884,
+      "uniqueID": "id-733",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 40
+        },
+        {
+          "name": "yDist",
+          "ioValue": -50,
+          "currentEquation": "-50"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     }
@@ -1169,6 +1195,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-685",
       "ap2ID": "id-725"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-730",
+      "ap2ID": "id-733"
     }
   ],
   "unitsKey": "MM",
