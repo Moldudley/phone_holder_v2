@@ -37,8 +37,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2956649091974224,
-      "y": 0.4873096446700507,
+      "x": 0.2893966022261277,
+      "y": 0.4847715736040609,
       "uniqueID": "id-472",
       "ioValues": [
         {
@@ -82,18 +82,448 @@
         },
         {
           "name": "xDist",
-          "ioValue": 1.5,
-          "currentEquation": "1.5"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 1.5,
+          "currentEquation": "1.5"
         },
         {
           "name": "zDist",
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.4276508494434681,
+      "y": 0.7258883248730964,
+      "uniqueID": "id-486",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 16,
+          "currentEquation": "16"
+        }
+      ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.4130052724077329,
+      "y": 0.4517766497461929,
+      "uniqueID": "id-561",
+      "name": "Fillet_in_Bounds",
+      "ioValues": [
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Radius",
+          "ioValue": 10
+        },
+        {
+          "name": "Selection",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-542",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.19246031746031744,
+          "y": 0.14763231197771587,
+          "uniqueID": "id-543",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 100
+            },
+            {
+              "name": "y length",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.37037037037037035,
+          "y": 0.2841225626740947,
+          "uniqueID": "id-544",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.26785714285714285,
+          "y": 0.818941504178273,
+          "uniqueID": "id-545",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 120
+            },
+            {
+              "name": "y length",
+              "ioValue": 120
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.37050264550264544,
+          "y": 0.8022284122562675,
+          "uniqueID": "id-546",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.45833333333333337,
+          "y": 0.8272980501392758,
+          "uniqueID": "id-547",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 50
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -2
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.15674603174603174,
+          "y": 0.43732590529247906,
+          "uniqueID": "id-548",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.49074074074074076,
+          "y": 0.3147632311977716,
+          "uniqueID": "id-549",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 100
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-550",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-551",
+          "name": "Radius"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-552",
+          "name": "Selection",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.5198412698412698,
+          "y": 0.5348189415041783,
+          "uniqueID": "id-560",
+          "ioValues": [
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "radius",
+              "ioValue": 10
+            },
+            {
+              "name": "region",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "interpreterVersion": 1,
+          "code": "function run(\n  shape: Assembly,\n  radius: number = 2,\n  region: Assembly | undefined = undefined,\n): Assembly {\n  let edgeFilter: ((e: any) => any) | null = null;\n\n  if (region) {\n    // Compute the combined bounding box of the region assembly by walking\n    // its leaves (replaces the old GetBounds helper).\n    const min = [Infinity, Infinity, Infinity];\n    const max = [-Infinity, -Infinity, -Infinity];\n    function collectBounds(node: Assembly) {\n      if (Array.isArray(node.geometry)) {\n        node.geometry.forEach(collectBounds);\n      } else {\n        const bb = node.geometry.boundingBox.bounds;\n        for (let i = 0; i < 3; i++) {\n          min[i] = Math.min(min[i], bb[0][i]);\n          max[i] = Math.max(max[i], bb[1][i]);\n        }\n      }\n    }\n    collectBounds(region);\n\n    const tol = 1e-6;\n    edgeFilter = (e) =>\n      e.when(({ element }) => {\n        const bb = element.boundingBox.bounds;\n        return (\n          bb[0][0] >= min[0] - tol &&\n          bb[0][1] >= min[1] - tol &&\n          bb[0][2] >= min[2] - tol &&\n          bb[1][0] <= max[0] + tol &&\n          bb[1][1] <= max[1] + tol &&\n          bb[1][2] <= max[2] + tol\n        );\n      });\n  }\n\n  return shape.onLeafs((leaf) => {\n    const solid = leaf.geometry;\n    leaf.geometry = edgeFilter\n      ? solid.fillet(radius, edgeFilter)\n      : solid.fillet(radius);\n    return leaf;\n  }) as Assembly;\n}",
+          "compiledCode": "\"use strict\";\nfunction run(shape, radius = 2, region = undefined) {\n    let edgeFilter = null;\n    if (region) {\n        // Compute the combined bounding box of the region assembly by walking\n        // its leaves (replaces the old GetBounds helper).\n        const min = [Infinity, Infinity, Infinity];\n        const max = [-Infinity, -Infinity, -Infinity];\n        function collectBounds(node) {\n            if (Array.isArray(node.geometry)) {\n                node.geometry.forEach(collectBounds);\n            }\n            else {\n                const bb = node.geometry.boundingBox.bounds;\n                for (let i = 0; i < 3; i++) {\n                    min[i] = Math.min(min[i], bb[0][i]);\n                    max[i] = Math.max(max[i], bb[1][i]);\n                }\n            }\n        }\n        collectBounds(region);\n        const tol = 1e-6;\n        edgeFilter = (e) => e.when(({ element }) => {\n            const bb = element.boundingBox.bounds;\n            return (bb[0][0] >= min[0] - tol &&\n                bb[0][1] >= min[1] - tol &&\n                bb[0][2] >= min[2] - tol &&\n                bb[1][0] <= max[0] + tol &&\n                bb[1][1] <= max[1] + tol &&\n                bb[1][2] <= max[2] + tol);\n        });\n    }\n    return shape.onLeafs((leaf) => {\n        const solid = leaf.geometry;\n        leaf.geometry = edgeFilter\n            ? solid.fillet(radius, edgeFilter)\n            : solid.fillet(radius);\n        return leaf;\n    });\n}\n"
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.42857142857142855,
+          "y": 0.22284122562674097,
+          "uniqueID": "id-553",
+          "name": "Concentric_Circles",
+          "ioValues": [
+            {
+              "name": "OD",
+              "ioValue": 100
+            },
+            {
+              "name": "ID",
+              "ioValue": 50
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-554",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-555",
+              "name": "OD",
+              "type": "number"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-556",
+              "name": "ID",
+              "type": "number"
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.460559796437659,
+              "y": 0.42567567567567566,
+              "uniqueID": "id-557",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 100
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.44529262086514,
+              "y": 0.7263513513513513,
+              "uniqueID": "id-558",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 50
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.6615776081424937,
+              "y": 0.5506756756756757,
+              "uniqueID": "id-559",
+              "ioValues": [
+                {
+                  "name": "retain",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "remove",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-555",
+              "ap2ID": "id-557"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-556",
+              "ap2ID": "id-558"
+            },
+            {
+              "ap2Name": "retain",
+              "ap1ID": "id-557",
+              "ap2ID": "id-559"
+            },
+            {
+              "ap2Name": "remove",
+              "ap1ID": "id-558",
+              "ap2ID": "id-559"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-559",
+              "ap2ID": "id-554"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-04-28T18:23:39.166Z",
+            "privateRepo": false,
+            "repoName": "Concentric_Circles",
+            "dateCreated": "2025-11-08T04:08:14Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "id-1170",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/Concentric_Circles",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739563",
+            "ranking": 18.9,
+            "searchField": "concentric_circles barboursmith creates two concentric circles. the result is 2d ",
+            "owner": "BarbourSmith",
+            "description": "Creates two concentric circles. The result is 2D",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Concentric_Circles/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1777409097289
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-543",
+          "ap2ID": "id-544"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-545",
+          "ap2ID": "id-546"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-546",
+          "ap2ID": "id-547"
+        },
+        {
+          "ap2Name": "shape",
+          "ap1ID": "id-550",
+          "ap2ID": "id-560"
+        },
+        {
+          "ap2Name": "radius",
+          "ap1ID": "id-551",
+          "ap2ID": "id-560"
+        },
+        {
+          "ap2Name": "region",
+          "ap1ID": "id-552",
+          "ap2ID": "id-560"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-560",
+          "ap2ID": "id-542"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-553",
+          "ap2ID": "id-549"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-08-18T10:23:39.059Z",
+        "privateRepo": false,
+        "repoName": "Fillet_in_Bounds",
+        "dateCreated": "2026-04-28T20:40:52Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Fillet_in_Bounds/master/README.md?sanitize=true",
+        "yyyy": 2026,
+        "topMoleculeID": "id-524",
+        "githubMoleculesUsed": [
+          {
+            "owner": "BarbourSmith",
+            "repoName": "Concentric_Circles"
+          }
+        ],
+        "html_url": "https://github.com/BarbourSmith/Fillet_in_Bounds",
+        "topics": [],
+        "pullRequests": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739796",
+        "ranking": 4.5,
+        "searchField": "fillet_in_bounds barboursmith takes an input shape and a selection box and fillets all of the edges that fall within the bounding box ",
+        "owner": "BarbourSmith",
+        "description": "Takes an input shape and a selection box and fillets all of the edges that fall within the bounding box",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Fillet_in_Bounds/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Fillet_in_Bounds/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1787073064298
     }
   ],
   "allConnectors": [
@@ -101,6 +531,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-468",
       "ap2ID": "id-472"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-472",
+      "ap2ID": "id-561"
     },
     {
       "ap2Name": "number or geometry",
@@ -111,6 +546,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-476",
       "ap2ID": "id-480"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-480",
+      "ap2ID": "id-486"
     }
   ],
   "unitsKey": "MM",
