@@ -114,8 +114,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.4130052724077329,
-      "y": 0.4517766497461929,
+      "x": 0.4797891036906854,
+      "y": 0.1649746192893401,
       "uniqueID": "id-561",
       "name": "Fillet_in_Bounds",
       "ioValues": [
@@ -524,6 +524,48 @@
       "unitsKey": "Unitless",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1787073064298
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.21792618629173988,
+      "y": 0.19543147208121828,
+      "uniqueID": "id-613",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 100,
+          "currentEquation": "100"
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3561804335090803,
+      "y": 0.15736040609137056,
+      "uniqueID": "id-617",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -50,
+          "currentEquation": "-50"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -531,11 +573,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-468",
       "ap2ID": "id-472"
-    },
-    {
-      "ap2Name": "Shape",
-      "ap1ID": "id-472",
-      "ap2ID": "id-561"
     },
     {
       "ap2Name": "number or geometry",
@@ -551,6 +588,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-480",
       "ap2ID": "id-486"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-613",
+      "ap2ID": "id-617"
+    },
+    {
+      "ap2Name": "Selection",
+      "ap1ID": "id-617",
+      "ap2ID": "id-561"
     }
   ],
   "unitsKey": "MM",
