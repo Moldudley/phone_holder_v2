@@ -2027,6 +2027,36 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.9015817223198594,
+      "y": 0.6776649746192893,
+      "uniqueID": "id-1208",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "phone_holder_v2",
+          "currentEquation": "phone_holder_v2"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "phone_holder_v2"
     }
   ],
   "allConnectors": [
@@ -2074,6 +2104,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-667",
       "ap2ID": "id-466"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-667",
+      "ap2ID": "id-1208"
     },
     {
       "ap2Name": "Shape 4",
