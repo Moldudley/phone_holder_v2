@@ -1,13 +1,66 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-465",
-    "name": "phone_holder_v2",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-465",
+  "name": "phone_holder_v2",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-466",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.19566490919742238,
+      "y": 0.4873096446700507,
+      "uniqueID": "id-468",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 80,
+          "currentEquation": "80"
+        },
+        {
+          "name": "y length",
+          "ioValue": 106
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2956649091974224,
+      "y": 0.4873096446700507,
+      "uniqueID": "id-472",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 16,
+          "currentEquation": "16"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-468",
+      "ap2ID": "id-472"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
