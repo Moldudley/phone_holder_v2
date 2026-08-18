@@ -68,8 +68,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.30111306385471587,
-      "y": 0.9213197969543147,
+      "x": 0.3093145869947276,
+      "y": 0.9263959390862944,
       "uniqueID": "id-480",
       "ioValues": [
         {
@@ -200,8 +200,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4053895723491506,
-      "y": 0.28680203045685276,
+      "x": 0.434680726420621,
+      "y": 0.3451776649746193,
       "uniqueID": "id-636",
       "ioValues": [
         {
@@ -288,8 +288,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.6115992970123023,
-      "y": 0.9187817258883249,
+      "x": 0.6104276508494434,
+      "y": 0.9060913705583755,
       "uniqueID": "id-667",
       "ioValues": [
         {
@@ -329,10 +329,6 @@
       "uniqueID": "id-725",
       "ioValues": [
         {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
           "name": "Shape 2",
           "ioValue": null
         }
@@ -352,8 +348,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3327475102519039,
-      "y": 0.5279187817258884,
+      "x": 0.3292325717633275,
+      "y": 0.5076142131979695,
       "uniqueID": "id-733",
       "ioValues": [
         {
@@ -362,11 +358,13 @@
         },
         {
           "name": "xDist",
-          "ioValue": 40
+          "ioValue": 38,
+          "currentEquation": "38"
         },
         {
           "name": "yDist",
-          "ioValue": -50
+          "ioValue": -48,
+          "currentEquation": "-48"
         },
         {
           "name": "zDist",
@@ -376,8 +374,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5735207967193907,
-      "y": 0.1649746192893401,
+      "x": 0.5670767428236673,
+      "y": 0.11421319796954314,
       "uniqueID": "id-685",
       "name": "Mirror",
       "ioValues": [
@@ -1085,6 +1083,38 @@
       "unitsKey": "Unitless",
       "fileTypeVersion": 1,
       "lastReloadedFromGithubAt": 1787073064298
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7387229056824839,
+      "y": 0.35786802030456855,
+      "uniqueID": "id-914",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.4053895723491506,
+      "y": 0.46954314720812185,
+      "uniqueID": "id-919",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1134,9 +1164,9 @@
       "ap2ID": "id-630"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-630",
-      "ap2ID": "id-636"
+      "ap2ID": "id-919"
     },
     {
       "ap2Name": "retain",
@@ -1159,19 +1189,19 @@
       "ap2ID": "id-658"
     },
     {
-      "ap2Name": "Shape",
-      "ap1ID": "id-658",
-      "ap2ID": "id-685"
-    },
-    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-658",
       "ap2ID": "id-725"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "Shape 2",
       "ap1ID": "id-667",
-      "ap2ID": "id-466"
+      "ap2ID": "id-914"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-725",
+      "ap2ID": "id-914"
     },
     {
       "ap2Name": "geometry",
@@ -1179,9 +1209,19 @@
       "ap2ID": "id-733"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-685",
-      "ap2ID": "id-725"
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-733",
+      "ap2ID": "id-919"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-914",
+      "ap2ID": "id-466"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-919",
+      "ap2ID": "id-636"
     }
   ],
   "unitsKey": "MM",
